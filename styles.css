@@ -166,3 +166,28 @@ li a:hover{
     background-image: url(./midia/actores/pessoa-jeffrey-wright.jpg);
 }
 
+footer{
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span{
+    color: red;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-weight: bold;
+}
+
+.footer-navigation{
+    display: none;
+}
+
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
