@@ -113,6 +113,56 @@ li a:hover{
     width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 500px;
+}
+
+.cards-content{
+    width: 90%;
+    display: flex;
+    grid-template-columns: 4, 4fr;
+    object-fit: cover;
+    margin-bottom: 5px;
+}
+
+.card {
+    width: 80%;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-blend-mode: normal;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 15px 10px;
+    color: red;
+    font-size: 21px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-weight: bold;
+}
+
+
+.card:hover{
+    transform: scale(1.02);
+}
+
+.banner-1{
+    background-image: url(./midia/actores/1_robert_pattinson_the_batman-18238597.jpg);
+}
+
+.banner-2{
+    background-image: url(./midia/actores/andy\ serkis\ alfred.jpg);
+}
+
+.banner-3{
+    background-image: url(./midia/actores/Zoe_Kravitz_2020_dvna_studio.jpg);
+}
+
+.banner-4{
+    background-image: url(./midia/actores/pessoa-jeffrey-wright.jpg);
 }
 
